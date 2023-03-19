@@ -34,8 +34,15 @@ The application allows interaction through a Rest endpoint that allows the user 
    3 Fetch by code
    4 Delete all data
 ```
-Test output => screenshots path
+
+Test output => Screenshots 
 
 ```bash
    .\screenshots
+```
+
+Postman Collection
+
+```bash
+   .\postman
 ```
