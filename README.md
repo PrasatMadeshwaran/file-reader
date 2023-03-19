@@ -11,9 +11,7 @@ Spring Boot project that allows you to read a CSV file and perform CRUD operatio
 Clone the project
 
 ```bash
-
    https://github.com/PrasatMadeshwaran/file-reader.git
-
 ```
 
 Swagger Endpoint
@@ -40,8 +38,4 @@ Test output => screenshots path
 
 ```bash
    .\screenshots
-```
-
-```bash
-   http://localhost:8080/h2-console/login.jsp
 ```
