@@ -12,7 +12,7 @@ Clone the project
 
 ```bash
 
-https://github.com/PrasatMadeshwaran/file-reader.git
+   https://github.com/PrasatMadeshwaran/file-reader.git
 
 ```
 
