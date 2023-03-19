@@ -12,6 +12,8 @@ Clone the project
 
 ```bash
 
+https://github.com/PrasatMadeshwaran/file-reader.git
+
 ```
 
 Swagger Endpoint
