@@ -36,3 +36,12 @@ The application allows interaction through a Rest endpoint that allows the user 
    3 Fetch by code
    4 Delete all data
 ```
+Test output => screenshots path
+
+```bash
+   .\screenshots
+```
+
+```bash
+   http://localhost:8080/h2-console/login.jsp
+```
