@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "9bc51743-8cde-434b-be67-c1ece803aa98",
+		"name": "File Reader Application",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20750299"
+	},
+	"item": [
+		{
+			"name": "Upload the data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "csv-file",
+							"type": "file",
+							"src": "/home/prasat/Downloads/exercise.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/csv/upload-data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"csv",
+						"upload-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch all data",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:8080/csv/fetch-all-data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"csv",
+						"fetch-all-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch by code",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:8080/csv/fetch-by-code/698832009",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"csv",
+						"fetch-by-code",
+						"698832009"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete all data",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:8080/csv/delete-all-data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"csv",
+						"delete-all-data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
